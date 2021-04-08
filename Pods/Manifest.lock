@@ -1,0 +1,78 @@
+PODS:
+  - FBSDKCoreKit (9.1.0):
+    - FBSDKCoreKit/Basics (= 9.1.0)
+    - FBSDKCoreKit/Core (= 9.1.0)
+  - FBSDKCoreKit/Basics (9.1.0)
+  - FBSDKCoreKit/Core (9.1.0):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (9.1.0):
+    - FBSDKLoginKit/Login (= 9.1.0)
+  - FBSDKLoginKit/Login (9.1.0):
+    - FBSDKCoreKit (~> 9.1.0)
+  - FBSDKShareKit (9.1.0):
+    - FBSDKShareKit/Share (= 9.1.0)
+  - FBSDKShareKit/Share (9.1.0):
+    - FBSDKCoreKit (~> 9.1.0)
+  - mob_sharesdk (4.3.17):
+    - mob_sharesdk/ShareSDK (= 4.3.17)
+    - MOBFoundation (>= 3.2.9)
+  - mob_sharesdk/ShareSDK (4.3.17):
+    - MOBFoundation (>= 3.2.9)
+  - mob_sharesdk/ShareSDKPlatforms/QQ (4.3.17):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation (>= 3.2.9)
+  - mob_sharesdk/ShareSDKPlatforms/SinaWeibo (4.3.17):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation (>= 3.2.9)
+  - mob_sharesdk/ShareSDKPlatforms/WeChat (4.3.17):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation (>= 3.2.9)
+  - mob_sharesdk/ShareSDKUI (4.3.17):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation (>= 3.2.9)
+  - MOBFoundation (3.2.25)
+  - TPNS-iOS (1.3.0.0)
+  - WYSDK (1.0.0):
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKShareKit
+    - TPNS-iOS
+
+DEPENDENCIES:
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKShareKit
+  - mob_sharesdk
+  - mob_sharesdk/ShareSDKPlatforms/QQ
+  - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+  - mob_sharesdk/ShareSDKPlatforms/WeChat
+  - mob_sharesdk/ShareSDKUI
+  - TPNS-iOS
+  - WYSDK (from `Lib/WYSDK`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - mob_sharesdk
+    - MOBFoundation
+  trunk:
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKShareKit
+    - TPNS-iOS
+
+EXTERNAL SOURCES:
+  WYSDK:
+    :path: Lib/WYSDK
+
+SPEC CHECKSUMS:
+  FBSDKCoreKit: a00fe2efd780c195a5e09201bf51c56106245b40
+  FBSDKLoginKit: d98498c598ec09de657385a9349a1f21119b7f86
+  FBSDKShareKit: d5aafc35870083f53c15ec0eb9eda4dfe8037d11
+  mob_sharesdk: 38b0e445a0a40d69d4646149b0381aa1c5f87e61
+  MOBFoundation: eaeb2e9e26a4155fa931020fb275d83445da0e09
+  TPNS-iOS: 4f61f76d71c8db1365763bb3a40b0c5ce9ce7b89
+  WYSDK: eabe119325c5c891c94764fba9bdfce406b14832
+
+PODFILE CHECKSUM: e05d4e05dcc6fed7b03c7fbebe2651a2f8fe05bb
+
+COCOAPODS: 1.9.1

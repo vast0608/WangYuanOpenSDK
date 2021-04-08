@@ -1,0 +1,6 @@
+framework module Pods_WangYuanOpenSDK {
+  umbrella header "Pods-WangYuanOpenSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
